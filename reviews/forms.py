@@ -11,7 +11,6 @@ from .models import Review
 #     rating = forms.IntegerField(label="Your Rating", min_value=1, max_value=5)
 
 class ReviewForm(forms.ModelForm):
-    
     class Meta:
         model = Review
         fields = '__all__'
